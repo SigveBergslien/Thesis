@@ -1,0 +1,82 @@
+﻿Build started 15/03/2012 10:49:30.
+     1>Project "D:\csc8506Team2\GraphicsFramework\Framework\Framework.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Framework.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DebugDraw2D.cpp DebugDraw3D.cpp HeightMap.cpp MD5Anim.cpp MD5Mesh.cpp OGLRenderer.cpp OggSound.cpp Shader.cpp Sound.cpp SoundNode.cpp SoundSystem.cpp Window.cpp XmlParser.cpp
+         DebugDraw2D.cpp
+         DebugDraw3D.cpp
+         HeightMap.cpp
+     1>HeightMap.cpp(450): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>HeightMap.cpp(450): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         MD5Anim.cpp
+         MD5Mesh.cpp
+         OGLRenderer.cpp
+         OggSound.cpp
+     1>OggSound.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>OggSound.cpp(69): warning C4244: 'argument' : conversion from 'float' to 'ALsizei', possible loss of data
+         Shader.cpp
+         Sound.cpp
+         SoundNode.cpp
+     1>SoundNode.cpp(94): warning C4244: 'argument' : conversion from 'double' to 'ALfloat', possible loss of data
+         SoundSystem.cpp
+         Window.cpp
+         XmlParser.cpp
+     1>XmlParser.cpp(197): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>XmlParser.cpp(256): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\csc8506Team2\GraphicsFramework\Release\Framework.lib" /NOLOGO /LTCG Release\AStarThread.obj
+         Release\Camera.obj
+         Release\Cloth.obj
+         Release\CollisionDetection.obj
+         Release\CollisionResponse.obj
+         Release\DebugDraw2D.obj
+         Release\DebugDraw3D.obj
+         Release\Enemy.obj
+         Release\Flock.obj
+         Release\Frustum.obj
+         Release\GameData.obj
+         Release\GameTimer.obj
+         Release\HeightMap.obj
+         Release\Keyboard.obj
+         Release\LoadingCamera.obj
+         Release\Matrix3.obj
+         Release\Matrix4.obj
+         Release\MD5Anim.obj
+         Release\MD5Mesh.obj
+         Release\Mesh.obj
+         Release\minimapCamera.obj
+         Release\Mouse.obj
+         Release\Mutex_class.obj
+         Release\OBJMesh.obj
+         Release\Octree.obj
+         Release\OggSound.obj
+         Release\PhysicsThread.obj
+         Release\Plane.obj
+         Release\Pooka.obj
+         Release\Ray.obj
+         Release\RigidBody.obj
+         Release\SceneNode.obj
+         Release\Shader.obj
+         Release\OGLRenderer.obj
+         Release\Quaternion.obj
+         Release\Sound.obj
+         Release\SoundNode.obj
+         Release\SoundSystem.obj
+         Release\StateMachine.obj
+         Release\TextMesh.obj
+         Release\Thread.obj
+         Release\Window.obj
+         Release\XmlParser.obj
+         Framework.vcxproj -> D:\csc8506Team2\GraphicsFramework\Release\Framework.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\Framework.unsuccessfulbuild".
+         Touching "Release\Framework.lastbuildstate".
+     1>Done Building Project "D:\csc8506Team2\GraphicsFramework\Framework\Framework.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.99

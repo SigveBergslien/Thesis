@@ -1,0 +1,68 @@
+﻿Build started 17.04.2012 14:18:57.
+     1>Project "C:\Sigve\Programming\GraphicsFramework\Framework\Framework.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Framework.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp
+         Camera.cpp
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(207): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(228): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(364): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(364): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(414): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\sigve\programming\graphicsframework\framework\camera.cpp(414): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Sigve\Programming\GraphicsFramework\Debug\Framework.lib" /NOLOGO Debug\AStarThread.obj
+         Debug\Camera.obj
+         Debug\Cloth.obj
+         Debug\CollisionDetection.obj
+         Debug\CollisionResponse.obj
+         Debug\DebugDraw2D.obj
+         Debug\DebugDraw3D.obj
+         Debug\Enemy.obj
+         Debug\Flock.obj
+         Debug\Frustum.obj
+         Debug\GameData.obj
+         Debug\GameTimer.obj
+         Debug\HeightMap.obj
+         Debug\Keyboard.obj
+         Debug\LoadingCamera.obj
+         Debug\Matrix3.obj
+         Debug\Matrix4.obj
+         Debug\MD5Anim.obj
+         Debug\MD5Mesh.obj
+         Debug\Mesh.obj
+         Debug\minimapCamera.obj
+         Debug\Mouse.obj
+         Debug\Mutex_class.obj
+         Debug\OBJMesh.obj
+         Debug\Octree.obj
+         Debug\OggSound.obj
+         Debug\PhysicsThread.obj
+         Debug\Plane.obj
+         Debug\Pooka.obj
+         Debug\Ray.obj
+         Debug\RigidBody.obj
+         Debug\SceneNode.obj
+         Debug\Shader.obj
+         Debug\OGLRenderer.obj
+         Debug\Quaternion.obj
+         Debug\Sound.obj
+         Debug\SoundNode.obj
+         Debug\SoundSystem.obj
+         Debug\StateMachine.obj
+         Debug\TextMesh.obj
+         Debug\Thread.obj
+         Debug\Window.obj
+         Debug\XmlParser.obj
+     1>Enemy.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Framework.vcxproj -> C:\Sigve\Programming\GraphicsFramework\Debug\Framework.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Framework.unsuccessfulbuild".
+         Touching "Debug\Framework.lastbuildstate".
+     1>Done Building Project "C:\Sigve\Programming\GraphicsFramework\Framework\Framework.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.18

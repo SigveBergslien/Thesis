@@ -1,0 +1,79 @@
+﻿Build started 13/06/2012 21:41:44.
+     1>Project "C:\Sigve\Programming\GraphicsFramework\Graphics\Graphics.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Graphics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Graphics.cpp LoadingRenderer.cpp LoadingThread.cpp MenuRenderer.cpp ParticleEmitter.cpp Renderer.cpp Spells.cpp WeatherEmitter.cpp
+         Graphics.cpp
+     1>c:\sigve\programming\graphicsframework\graphics\../Framework/minimapCamera.h(7): warning C4005: 'MIN_SPEED' : macro redefinition
+                 c:\sigve\programming\graphicsframework\graphics\../Framework/Camera.h(10) : see previous definition of 'MIN_SPEED'
+     1>c:\sigve\programming\graphicsframework\graphics\../Framework/CameraNode.h(30): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics.cpp(91): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics.cpp(134): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         LoadingRenderer.cpp
+         LoadingThread.cpp
+         MenuRenderer.cpp
+     1>MenuRenderer.cpp(56): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>MenuRenderer.cpp(117): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+         ParticleEmitter.cpp
+         Renderer.cpp
+     1>c:\sigve\programming\graphicsframework\graphics\../Framework/minimapCamera.h(7): warning C4005: 'MIN_SPEED' : macro redefinition
+                 c:\sigve\programming\graphicsframework\graphics\../Framework/Camera.h(10) : see previous definition of 'MIN_SPEED'
+     1>c:\sigve\programming\graphicsframework\graphics\../Framework/CameraNode.h(30): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Renderer.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(608): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(609): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Renderer.cpp(727): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>Renderer.cpp(738): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(776): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(824): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(887): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Renderer.cpp(1325): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(1696): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Renderer.cpp(1970): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(2182): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(2213): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Renderer.cpp(2291): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(3116): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(3301): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Renderer.cpp(3817): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(3885): warning C4244: '=' : conversion from 'time_t' to 'float', possible loss of data
+     1>Renderer.cpp(3954): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(3974): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(3992): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(4015): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Renderer.cpp(4027): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Renderer.cpp(4040): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Renderer.cpp(4053): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Renderer.cpp(4095): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Renderer.cpp(4115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Renderer.cpp(4118): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(4122): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Spells.cpp
+         WeatherEmitter.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Sigve\Programming\GraphicsFramework\Release\Graphics.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Graphics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Sigve\Programming\GraphicsFramework\Release\Graphics.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Sigve\Programming\GraphicsFramework\Release\Graphics.lib" /MACHINE:X86 Release\Graphics.obj
+         Release\LoadingRenderer.obj
+         Release\LoadingThread.obj
+         Release\MenuRenderer.obj
+         Release\ParticleEmitter.obj
+         Release\Renderer.obj
+         Release\Spells.obj
+         Release\WeatherEmitter.obj
+         Generating code
+         Finished generating code
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'C:\Sigve\Programming\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'C:\Sigve\Programming\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'C:\Sigve\Programming\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'C:\Sigve\Programming\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+         Graphics.vcxproj -> C:\Sigve\Programming\GraphicsFramework\Release\Graphics.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Sigve\Programming\GraphicsFramework\Release\Graphics.exe;#1" /manifest Release\Graphics.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Graphics.unsuccessfulbuild".
+         Touching "Release\Graphics.lastbuildstate".
+     1>Done Building Project "C:\Sigve\Programming\GraphicsFramework\Graphics\Graphics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.99

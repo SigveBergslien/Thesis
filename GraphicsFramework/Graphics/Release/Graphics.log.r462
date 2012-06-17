@@ -1,0 +1,45 @@
+﻿Build started 15/03/2012 11:51:52.
+     1>Project "D:\csc8506Team2\GraphicsFramework\Graphics\Graphics.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Graphics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp
+         Renderer.cpp
+     1>d:\csc8506team2\graphicsframework\graphics\../Framework/minimapCamera.h(7): warning C4005: 'MIN_SPEED' : macro redefinition
+                 d:\csc8506team2\graphicsframework\graphics\../Framework/Camera.h(8) : see previous definition of 'MIN_SPEED'
+     1>Renderer.cpp(538): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(539): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Renderer.cpp(682): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(1163): warning C4018: '<' : signed/unsigned mismatch
+     1>Renderer.cpp(1534): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Renderer.cpp(1933): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(2809): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Renderer.cpp(2872): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Renderer.cpp(3378): warning C4244: '=' : conversion from 'time_t' to 'clock_t', possible loss of data
+     1>Renderer.cpp(3446): warning C4244: '=' : conversion from 'time_t' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\csc8506Team2\GraphicsFramework\Release\Graphics.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Graphics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\csc8506Team2\GraphicsFramework\Release\Graphics.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\csc8506Team2\GraphicsFramework\Release\Graphics.lib" /MACHINE:X86 Release\Graphics.obj
+         Release\LoadingRenderer.obj
+         Release\LoadingThread.obj
+         Release\MenuRenderer.obj
+         Release\ParticleEmitter.obj
+         Release\Renderer.obj
+         Release\Spells.obj
+         Release\WeatherEmitter.obj
+         Generating code
+         Finished generating code
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'D:\csc8506Team2\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'D:\csc8506Team2\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'D:\csc8506Team2\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'D:\csc8506Team2\GraphicsFramework\Release\vc100.pdb'; linking object as if no debug info
+         Graphics.vcxproj -> D:\csc8506Team2\GraphicsFramework\Release\Graphics.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\csc8506Team2\GraphicsFramework\Release\Graphics.exe;#1" /manifest Release\Graphics.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Graphics.unsuccessfulbuild".
+         Touching "Release\Graphics.lastbuildstate".
+     1>Done Building Project "D:\csc8506Team2\GraphicsFramework\Graphics\Graphics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.29
