@@ -1,0 +1,8 @@
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity version="1.0.0.0" processorArchitecture="X86" name="oalinst" type="win32"></assemblyIdentity><description>OpenAL Installer</description><ms_asmv3:trustInfo xmlns:ms_asmv3="urn:schemas-microsoft-com:asm.v3" xmlns="urn:schemas-microsoft-com:asm.v3"><ms_asmv3:security xmlns:ms_asmv3="urn:schemas-microsoft-com:asm.v3"><requestedPrivileges>
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false"></requestedExecutionLevel>
+        </requestedPrivileges></ms_asmv3:security></ms_asmv3:trustInfo><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+    <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS>
+    <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>
+    </application>
+  </compatibility></assembly>

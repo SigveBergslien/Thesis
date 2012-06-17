@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="HeightMap.cpp" />
+    <ClCompile Include="Matrix3.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
+    <ClCompile Include="MD5Anim.cpp" />
+    <ClCompile Include="MD5Mesh.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="OBJMesh.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="OGLRenderer.cpp" />
+    <ClCompile Include="Cloth.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionResponse.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="PhysicsThread.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Flock.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingCamera.cpp" />
+    <ClCompile Include="Mutex_class.cpp" />
+    <ClCompile Include="AStarThread.cpp" />
+    <ClCompile Include="minimapCamera.cpp" />
+    <ClCompile Include="TextMesh.cpp" />
+    <ClCompile Include="XmlParser.cpp">
+      <Filter>Xml Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Window.cpp">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw2D.cpp">
+      <Filter>DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw3D.cpp">
+      <Filter>DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="OggSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Pooka.cpp" />
+    <ClCompile Include="SoundNode.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Data Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ChildMeshInterface.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="HeightMap.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Matrix3.h" />
+    <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="MD5Anim.h" />
+    <ClInclude Include="MD5Mesh.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="OBJMesh.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="OGLRenderer.h" />
+    <ClInclude Include="BoundingObject.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingTriangle.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloth.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothSpring.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResponse.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="PhysicsThread.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Flock.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingCamera.h" />
+    <ClInclude Include="Mutex_class.h" />
+    <ClInclude Include="AStarThread.h" />
+    <ClInclude Include="minimapCamera.h" />
+    <ClInclude Include="TextMesh.h" />
+    <ClInclude Include="HeightMapData.h">
+      <Filter>Data Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Data Models</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParser.h">
+      <Filter>Xml Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Data Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="GameObjectTypes.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Window.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Xml Parser\Utilitys</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw2D.h">
+      <Filter>DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw3D.h">
+      <Filter>DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="OggSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Pooka.h" />
+    <ClInclude Include="SoundNode.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Data Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{36ceeb30-3d91-4c2f-a723-84f61fb5dfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Models">
+      <UniqueIdentifier>{b4b2bafa-d541-4d39-ab7c-2c471432d626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml Parser">
+      <UniqueIdentifier>{f83355a8-19e8-4bc8-88db-7d2dd31dfe0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Octree">
+      <UniqueIdentifier>{d744cc9e-9a7f-4262-b19b-010debe8681a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{b29dd64e-b6ab-4846-beab-175848353f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugDraw">
+      <UniqueIdentifier>{e13344b2-90ad-408d-9d9d-8ecf54b7e762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml Parser\Utilitys">
+      <UniqueIdentifier>{5b5e92fa-380c-473f-994f-4a9b9285d897}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
